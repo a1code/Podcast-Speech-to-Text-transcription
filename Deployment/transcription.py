@@ -1,28 +1,18 @@
 from collections import OrderedDict
 import torch
 import torch.nn as nn
-import torch.nn.parallel
-import torch.backends.cudnn as cudnn
 import torch.optim as optim
-import torch.utils.data
 from torch.utils.data import DataLoader
 from torch.utils.data import Dataset
-from torch.utils.data.sampler import SubsetRandomSampler
-from torch.nn.utils.rnn import pad_sequence, pack_padded_sequence
+from torch.nn.utils.rnn import pad_sequence
 import torchaudio
 import math
 import random
 import numpy as np
-import pandas as pd
-import os
 import io
-from collections import Counter
 import sys
 import subprocess
 from pytube import YouTube
-import re
-import time
-from datetime import datetime, timezone
 from pydub import AudioSegment
 from pydub.utils import make_chunks
 
@@ -240,7 +230,7 @@ def delete_file_from_path(path):
 # execution starts here
 if __name__ == "__main__":
 	if len(sys.argv) <= 1:
-		print("One argument required: python transcription.py [youtube_url]")
+		print("One argument required: python3 transcription.py [youtube_url]")
 		sys.exit()
 	youtube_url = sys.argv[1]
 
