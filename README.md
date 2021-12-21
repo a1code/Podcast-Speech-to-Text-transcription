@@ -2,7 +2,7 @@
 
 **Note**: Please watch the final presentation [here](https://www.youtube.com/watch?v=e43h1iVaNPM) or refer [STTProjectDescription.pdf](https://github.com/a1code/Podcast-Speech-to-Text-transcription/blob/main/STT_Project_Description.pdf) for details.
 
-**Dataset** : [Lex Fridman podcasts](https://www.youtube.com/watch?v=Z_LhPMhkEdw&list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4).  
+**Dataset** : [Lex Fridman podcast](https://www.youtube.com/watch?v=Z_LhPMhkEdw&list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4).  
 The repository contains all the scripts to download and setup the dataset from scratch. However, the pre-processed dataset from our implementation can be found [here](https://drive.google.com/drive/folders/1uORr7J-8jWaovhcH7IhOzFIb2liV2w7j?usp=sharing).  
 The raw data comprises of audio episodes (RIFF little-endian data, WAVE audio, Microsoft PCM, 16 bit, mono 16000 Hz) from the playlist, along with the corresponding video descriptions as metadata, and English closed captions as ground truth for model building. After preparation, the dataset contains (X, Y) pairs where X is an audio segment of length >= 4 seconds, and Y is the corresponding text transcript.
 
