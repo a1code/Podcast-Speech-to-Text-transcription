@@ -7,7 +7,7 @@ The repository contains all the scripts to download and setup the dataset from s
 The raw data comprises of audio episodes (RIFF little-endian data, WAVE audio, Microsoft PCM, 16 bit, mono 16000 Hz) from the playlist, along with the corresponding video descriptions as metadata, and English closed captions as ground truth for model building. After preparation, the dataset contains (X, Y) pairs where X is an audio segment of length >= 4 seconds, and Y is the corresponding text transcript.
 
 **Implementation Summary**:  
-• Implemented an end-to-end data science workflow to collect, prepare, explore and transcribe audios to text from Lex Fridman podcasts.  
+• Implemented an end-to-end data science workflow to collect, prepare, explore and transcribe audios to text for Lex Fridman podcasts.  
 • Wrote modules for audio feature extraction and the DeepSpeech2 Encoder-Decoder network in PyTorch, including training, tuning and evaluation of the model using around 600 hours of speech.  
 • Achieved a final Character Error Rate of ~35%, and set up a Python module to reuse trained weights for inference over new data.    
 
