@@ -1,6 +1,6 @@
 # Podcast-Speech-to-Text-transcription
 
-**Note**: Please watch the final presentation [here](https://www.youtube.com/watch?v=e43h1iVaNPM) or refer [STTProjectDescription.pdf](https://github.com/a1code/Podcast-Speech-to-Text-transcription/blob/main/STT_Project_Description.pdf) for details.
+**Note**: Please watch the final presentation [here](https://drive.google.com/file/d/1AueeMUUUz2xrMubkompdtnaVOo_3VWmx/view?usp=sharing) or refer [STTProjectDescription.pdf](https://github.com/a1code/Podcast-Speech-to-Text-transcription/blob/main/STT_Project_Description.pdf) for details.
 
 **Dataset** : [Lex Fridman podcast](https://www.youtube.com/watch?v=Z_LhPMhkEdw&list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4).  
 The repository contains all the scripts to download and setup the dataset from scratch. However, the pre-processed dataset from our implementation can be found [here](https://drive.google.com/file/d/1oaeXv8U2Z8We2m0FJEreked_GxjAZK_F/view?usp=sharing).  
